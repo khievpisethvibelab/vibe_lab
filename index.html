@@ -82,11 +82,26 @@
                         Advertising
                     </h3>
 
-                    <div class="project-gallery">
-                        <img src="Images/advertising/advertising1.png" alt="VIBE LAB Advertising Project 1">
-                        <img src="Images/advertising/advertising2.png" alt="VIBE LAB Advertising Project 2">
-                        <img src="Images/advertising/advertising3.png" alt="VIBE LAB Advertising Project 3">
-                        <img src="Images/advertising/advertising4.png" alt="VIBE LAB Advertising Project 4">
+                    <div class="project-carousel" data-carousel>
+                        <div class="carousel-track">
+                            <button class="carousel-arrow carousel-prev" type="button" aria-label="Previous advertising project">‹</button>
+                            <div class="carousel-slides">
+                                <button class="carousel-slide" type="button" data-full="Images/advertising/advertising1.png">
+                                    <img src="Images/advertising/advertising1.png" alt="VIBE LAB Advertising Project 1">
+                                </button>
+                                <button class="carousel-slide" type="button" data-full="Images/advertising/advertising2.png">
+                                    <img src="Images/advertising/advertising2.png" alt="VIBE LAB Advertising Project 2">
+                                </button>
+                                <button class="carousel-slide" type="button" data-full="Images/advertising/advertising3.png">
+                                    <img src="Images/advertising/advertising3.png" alt="VIBE LAB Advertising Project 3">
+                                </button>
+                                <button class="carousel-slide" type="button" data-full="Images/advertising/advertising4.png">
+                                    <img src="Images/advertising/advertising4.png" alt="VIBE LAB Advertising Project 4">
+                                </button>
+                            </div>
+                            <button class="carousel-arrow carousel-next" type="button" aria-label="Next advertising project">›</button>
+                        </div>
+                        <div class="carousel-dots" aria-label="Advertising project navigation"></div>
                     </div>
 
                 </div>
@@ -107,11 +122,26 @@
                         Social Media
                     </h3>
 
-                    <div class="project-gallery">
-                        <img src="Images/social-media/social1.png" alt="VIBE LAB Social Media Project 1">
-                        <img src="Images/social-media/social2.png" alt="VIBE LAB Social Media Project 2">
-                        <img src="Images/social-media/social3.png" alt="VIBE LAB Social Media Project 3">
-                        <img src="Images/social-media/social4.png" alt="VIBE LAB Social Media Project 4">
+                    <div class="project-carousel" data-carousel>
+                        <div class="carousel-track">
+                            <button class="carousel-arrow carousel-prev" type="button" aria-label="Previous social media project">‹</button>
+                            <div class="carousel-slides">
+                                <button class="carousel-slide" type="button" data-full="Images/social-media/social1.png">
+                                    <img src="Images/social-media/social1.png" alt="VIBE LAB Social Media Project 1">
+                                </button>
+                                <button class="carousel-slide" type="button" data-full="Images/social-media/social2.png">
+                                    <img src="Images/social-media/social2.png" alt="VIBE LAB Social Media Project 2">
+                                </button>
+                                <button class="carousel-slide" type="button" data-full="Images/social-media/social3.png">
+                                    <img src="Images/social-media/social3.png" alt="VIBE LAB Social Media Project 3">
+                                </button>
+                                <button class="carousel-slide" type="button" data-full="Images/social-media/social4.png">
+                                    <img src="Images/social-media/social4.png" alt="VIBE LAB Social Media Project 4">
+                                </button>
+                            </div>
+                            <button class="carousel-arrow carousel-next" type="button" aria-label="Next social media project">›</button>
+                        </div>
+                        <div class="carousel-dots" aria-label="Social media project navigation"></div>
                     </div>
 
                 </div>
@@ -232,6 +262,15 @@
 
     </footer>
 
+
+
+    <!-- IMAGE LIGHTBOX -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+        <button class="lightbox-arrow lightbox-prev" type="button" aria-label="Previous image">‹</button>
+        <img class="lightbox-image" id="lightbox-image" src="" alt="">
+        <button class="lightbox-arrow lightbox-next" type="button" aria-label="Next image">›</button>
+    </div>
 
     <script src="script.js"></script>
 
