@@ -135,8 +135,8 @@ h1 {
 }
 
 .project-card {
-    display: grid;
-    grid-template-columns: 80px 1fr;
+    display: block;
+    width: 100%;
     padding: 45px 0;
     border-bottom: 1px solid #c9c9c9;
     transition: 0.4s ease;
@@ -194,7 +194,7 @@ h1 {
     flex: 0 0 100%;
     width: 100%;
     min-width: 100%;
-    height: clamp(280px, 45vw, 620px);
+    height: clamp(300px, 42vw, 620px);
     padding: 0;
     border: 0;
     background: #151b20;
@@ -424,10 +424,6 @@ footer {
 
     .work {
         padding: 90px 30px;
-    }
-
-    .project-card {
-        grid-template-columns: 1fr;
     }
 
     .carousel-slide {
